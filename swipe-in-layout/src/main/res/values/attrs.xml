@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeInLayout">
+        <attr name="expanded" format="boolean" />
+        <attr name="slideEdge" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="collapsedWidth" format="dimension" />
+        <attr name="collapsedHeight" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <me.okmanideep.swipeinlayout.SwipeInLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:slideEdge="top"
+        app:collapsedHeight="24dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/top_slider_bg"
+            android:elevation="4dp"
+            />
+    </me.okmanideep.swipeinlayout.SwipeInLayout>
+
+    <me.okmanideep.swipeinlayout.SwipeInLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:slideEdge="left"
+        app:expanded="true"
+        app:collapsedWidth="64dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/left_slider_bg"
+            android:elevation="4dp"
+            />
+    </me.okmanideep.swipeinlayout.SwipeInLayout>
+
+    <me.okmanideep.swipeinlayout.SwipeInLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:slideEdge="right"
+        app:collapsedWidth="48dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/right_slider_bg"
+            android:elevation="4dp"
+            />
+    </me.okmanideep.swipeinlayout.SwipeInLayout>
+
+    <me.okmanideep.swipeinlayout.SwipeInLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        app:slideEdge="bottom"
+        app:collapsedHeight="24dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bottom_slider_bg"
+            android:elevation="4dp"
+            />
+    </me.okmanideep.swipeinlayout.SwipeInLayout>
+
+</LinearLayout>
